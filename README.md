@@ -55,7 +55,8 @@ running.
   using ([fuge](//github.com/apparatus/fuge)).
   ```
   $ cd system
-  $ ./node_modules/.bin/fuge shell fuge/fuge.yml
+  $ ./node_modules/.bin/fuge shell fuge/fuge.yml  
+  $ start all
   ```
 
 6. Index a few modules, by visiting the _info_ page in your browser.
