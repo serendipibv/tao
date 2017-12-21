@@ -16,6 +16,7 @@ development ([fuge](//github.com/apparatus/fuge)) modes.
 - Python needs to be installed (needed by node-gyp)  
 - Environment setting for python needs to be set, run   
 ``npm --add-python-to-path='true' --debug install --global windows-build-tools``  
+- Docker needs to be installed  
 
 __Note__  
 Executing the .sh files can be done on a windows machine by running the commands in the Git bash (also accessable from sourcetree).  
