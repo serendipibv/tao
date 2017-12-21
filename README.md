@@ -11,6 +11,15 @@ multiple repositories, and runs ten or so microservices in production
 ([Kubernetes](//kubernetes.io)), staging ([Docker](//docker.com)), and
 development ([fuge](//github.com/apparatus/fuge)) modes.
 
+## Preconditions
+- Node needs to be installed  
+- Python needs to be installed (needed by node-gyp)  
+- Environment setting for python needs to be set, run   
+``npm --add-python-to-path='true' --debug install --global windows-build-tools``  
+
+__Note__  
+Executing the .sh files can be done on a windows machine by running the commands in the Git bash (also accessable from sourcetree).  
+
 ## Nodezoo
 
 The nodezoo system is a little search engine
